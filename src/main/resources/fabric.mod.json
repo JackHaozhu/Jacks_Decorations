@@ -18,6 +18,9 @@
 		"main": [
 			"name.jacksdecorations.JacksDecorations"
 		],
+		"client": [
+			"name.jacksdecorations.JacksDecorationsClient"
+		],
 		"fabric-datagen": [
 			"name.jacksdecorations.JacksDecorationsDataGenerator"
 		]

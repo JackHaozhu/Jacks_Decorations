@@ -1,5 +1,8 @@
 package name.jacksdecorations;
 
+import name.jacksdecorations.block.ModBlocks;
+import name.jacksdecorations.item.ModItemGroups;
+import name.jacksdecorations.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,5 +15,8 @@ public class JacksDecorations implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

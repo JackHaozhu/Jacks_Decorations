@@ -1,4 +1,10 @@
 package name.jacksdecorations;
 
-public class JacksDecorationsClient {
+import net.fabricmc.api.ClientModInitializer;
+
+public class JacksDecorationsClient implements ClientModInitializer {
+    @Override
+    public void onInitializeClient() {
+
+    }
 }
