@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "jacksdecorations",
+	"version": "${version}",
+	"name": "Jack'sDecorations",
+	"description": "This is a mod which adds some decorative blocks you cannot get in survival mode in vanilla.",
+	"authors": [
+		"JackHaozhu"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/jacksdecorations/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"name.jacksdecorations.JacksDecorations"
+		],
+		"fabric-datagen": [
+			"name.jacksdecorations.JacksDecorationsDataGenerator"
+		]
+	},
+	"mixins": [
+		"jacksdecorations.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
