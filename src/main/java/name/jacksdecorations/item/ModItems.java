@@ -1,6 +1,7 @@
 package name.jacksdecorations.item;
 
 import name.jacksdecorations.JacksDecorations;
+import name.jacksdecorations.block.ModBlocks;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -15,6 +16,7 @@ public class ModItems {
 
     private static void addItemsToBuildingBlocks(FabricItemGroupEntries entries) {
 //        entries.add(ModItems.EXAMPLE);
+        entries.add(ModBlocks.DECORATIVE_SPAWNER);
     }
 
     private static Item registerItem(String name, Item item) {
