@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.GlassBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -13,7 +14,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block DECORATIVE_SPAWNER = registerBlock("decorative_spawner",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+            new GlassBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
     public static final Block DECORATIVE_BEDROCK = registerBlock("decorative_bedrock",
             new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)));
 

@@ -17,6 +17,7 @@ public class ModItems {
     private static void addItemsToBuildingBlocks(FabricItemGroupEntries entries) {
 //        entries.add(ModItems.EXAMPLE);
         entries.add(ModBlocks.DECORATIVE_SPAWNER);
+        entries.add(ModBlocks.DECORATIVE_BEDROCK);
     }
 
     private static Item registerItem(String name, Item item) {
