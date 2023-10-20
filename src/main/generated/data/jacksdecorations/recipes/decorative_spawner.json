@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:chain"
+    },
+    "T": {
+      "item": "minecraft:torchflower"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "CTC",
+    "CCC"
+  ],
+  "result": {
+    "item": "jacksdecorations:decorative_spawner"
+  },
+  "show_notification": true
+}

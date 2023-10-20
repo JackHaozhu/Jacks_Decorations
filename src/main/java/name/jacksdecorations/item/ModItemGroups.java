@@ -17,6 +17,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModBlocks.DECORATIVE_SPAWNER)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.DECORATIVE_SPAWNER);
                         entries.add(ModBlocks.DECORATIVE_BEDROCK);
+                        entries.add(ModBlocks.DECORATIVE_BARRIER);
                     }).build());
     public static void registerItemGroups() {
         JacksDecorations.LOGGER.info("Registering Mod Item Groups for " + JacksDecorations.MOD_ID);

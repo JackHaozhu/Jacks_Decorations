@@ -1,0 +1,4 @@
+// 1.20.1	2023-10-20T13:21:35.4047378	Jack'sDecorations/Tags for minecraft:block
+c466c1bfb29603bb09120ee8517346b61fd7e61f data\fabric\tags\blocks\needs_tool_level_4.json
+e1cef572d2224d2543ad1409b479622233f24ca6 data\minecraft\tags\blocks\mineable\pickaxe.json
+df8052d751da1b30e45c7c5b00e7bc6f52fd7a3c data\minecraft\tags\blocks\needs_iron_tool.json

@@ -1,0 +1,38 @@
+{
+  "parent": "jacksdecorations:decorate/root",
+  "criteria": {
+    "decorative_barrier": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jacksdecorations:decorative_barrier"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.decorate.decorative_barrier.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "jacksdecorations:decorative_barrier"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.decorate.decorative_barrier.title"
+    }
+  },
+  "requirements": [
+    [
+      "decorative_barrier"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

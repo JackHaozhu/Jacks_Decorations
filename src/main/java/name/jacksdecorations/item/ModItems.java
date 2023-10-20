@@ -18,6 +18,7 @@ public class ModItems {
 //        entries.add(ModItems.EXAMPLE);
         entries.add(ModBlocks.DECORATIVE_SPAWNER);
         entries.add(ModBlocks.DECORATIVE_BEDROCK);
+        entries.add(ModBlocks.DECORATIVE_BARRIER);
     }
 
     private static Item registerItem(String name, Item item) {

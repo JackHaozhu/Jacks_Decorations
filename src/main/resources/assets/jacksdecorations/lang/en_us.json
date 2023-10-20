@@ -1,6 +1,16 @@
 {
   "block.jacksdecorations.decorative_spawner": "Decorative Spawner",
   "block.jacksdecorations.decorative_bedrock": "Decorative Bedrock",
+  "block.jacksdecorations.decorative_barrier": "Decorative Barrier",
 
-  "itemgroup.jacksdecorations": "Jack's Decorations"
+  "itemgroup.jacksdecorations": "Jack's Decorations",
+
+  "advancements.decorate.root.description": "Craft blocks that was only in creative to decorate your world!",
+  "advancements.decorate.root.title": "Start Decorating!",
+  "advancements.decorate.decorative_spawner.description": "Is a non-spawning spawner still a spawner?",
+  "advancements.decorate.decorative_spawner.title": "A Spawner! But... does it spawn?",
+  "advancements.decorate.decorative_bedrock.description": "Hey bedrock, your unbreakable days are over(but it's still hard).",
+  "advancements.decorate.decorative_bedrock.title": "Is this a bedrock?",
+  "advancements.decorate.decorative_barrier.description": "You can't see it anymore after you placed it XD.",
+  "advancements.decorate.decorative_barrier.title": "The so-called invisible bedrock"
 }

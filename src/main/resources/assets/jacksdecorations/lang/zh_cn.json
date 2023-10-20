@@ -1,6 +1,16 @@
 {
   "block.jacksdecorations.decorative_spawner": "装饰刷怪笼",
   "block.jacksdecorations.decorative_bedrock": "装饰基岩",
+  "block.jacksdecorations.decorative_barrier": "装饰屏障",
 
-  "itemgroup.jacksdecorations": "豪猪的装饰方块"
+  "itemgroup.jacksdecorations": "豪猪的装饰方块",
+
+  "advancements.decorate.root.description": "用创造模式的方块装饰你的世界吧！",
+  "advancements.decorate.root.title": "好耶！是更多装饰！",
+  "advancements.decorate.decorative_spawner.description": "不刷怪的刷怪笼还能叫刷怪笼吗？",
+  "advancements.decorate.decorative_spawner.title": "刷怪笼！",
+  "advancements.decorate.decorative_bedrock.description": "嘿，基岩，你坚不可摧的日子结束了",
+  "advancements.decorate.decorative_bedrock.title": "这是...基岩？",
+  "advancements.decorate.decorative_barrier.description": "摆下去过后就看不见了 XD",
+  "advancements.decorate.decorative_barrier.title": "隐形的基岩？"
 }

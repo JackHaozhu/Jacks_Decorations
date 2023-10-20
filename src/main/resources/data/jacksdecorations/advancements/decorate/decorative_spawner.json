@@ -1,0 +1,38 @@
+{
+  "parent": "jacksdecorations:decorate/root",
+  "criteria": {
+    "decorative_spawner": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jacksdecorations:decorative_spawner"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.decorate.decorative_spawner.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "jacksdecorations:decorative_spawner"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.decorate.decorative_spawner.title"
+    }
+  },
+  "requirements": [
+    [
+      "decorative_spawner"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

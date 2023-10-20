@@ -24,6 +24,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerParentedItemModel(ModBlocks.DECORATIVE_BEDROCK, Identifier.tryParse("block/bedrock"));
         blockStateModelGenerator.registerStateWithModelReference(ModBlocks.DECORATIVE_SPAWNER, Blocks.SPAWNER);
         blockStateModelGenerator.registerParentedItemModel(ModBlocks.DECORATIVE_SPAWNER, Identifier.tryParse("block/spawner"));
+        blockStateModelGenerator.registerStateWithModelReference(ModBlocks.DECORATIVE_BARRIER, Blocks.BARRIER);
+        blockStateModelGenerator.registerParentedItemModel(ModBlocks.DECORATIVE_BARRIER, Identifier.tryParse("item/barrier"));
 
     }
 

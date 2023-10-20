@@ -1,0 +1,38 @@
+{
+  "parent": "jacksdecorations:decorate/root",
+  "criteria": {
+    "decorative_bedrock": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jacksdecorations:decorative_bedrock"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.decorate.decorative_bedrock.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "jacksdecorations:decorative_bedrock"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.decorate.decorative_bedrock.title"
+    }
+  },
+  "requirements": [
+    [
+      "decorative_bedrock"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
