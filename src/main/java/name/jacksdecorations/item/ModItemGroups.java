@@ -16,6 +16,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.jacksdecorations"))
                     .icon(() -> new ItemStack(ModBlocks.DECORATIVE_SPAWNER)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.DECORATIVE_SPAWNER);
+                        entries.add(ModBlocks.DECORATIVE_BEDROCK);
                     }).build());
     public static void registerItemGroups() {
         JacksDecorations.LOGGER.info("Registering Mod Item Groups for " + JacksDecorations.MOD_ID);

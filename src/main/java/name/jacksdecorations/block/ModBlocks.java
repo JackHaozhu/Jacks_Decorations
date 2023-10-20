@@ -14,6 +14,9 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     public static final Block DECORATIVE_SPAWNER = registerBlock("decorative_spawner",
             new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+    public static final Block DECORATIVE_BEDROCK = registerBlock("decorative_bedrock",
+            new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
