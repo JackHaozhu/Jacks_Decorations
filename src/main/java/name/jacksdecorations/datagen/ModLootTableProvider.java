@@ -14,5 +14,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DECORATIVE_BEDROCK);
         addDrop(ModBlocks.DECORATIVE_SPAWNER);
         addDrop(ModBlocks.DECORATIVE_BARRIER);
+        addDrop(ModBlocks.DECORATIVE_REINFORCED_DEEPSLATE);
+        addDrop(ModBlocks.DECORATIVE_COMMAND_BLOCK);
     }
 }

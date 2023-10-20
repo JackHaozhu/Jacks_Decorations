@@ -21,11 +21,19 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.DECORATIVE_SPAWNER)
                 .add(ModBlocks.DECORATIVE_BEDROCK)
-                .add(ModBlocks.DECORATIVE_BARRIER);
+                .add(ModBlocks.DECORATIVE_BARRIER)
+                .add(ModBlocks.DECORATIVE_REINFORCED_DEEPSLATE)
+                .add(ModBlocks.DECORATIVE_COMMAND_BLOCK);
+
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.DECORATIVE_SPAWNER)
                 .add(ModBlocks.DECORATIVE_BARRIER);
+
+        getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.DECORATIVE_COMMAND_BLOCK);
+
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_4")))
-                .add(ModBlocks.DECORATIVE_BEDROCK);
+                .add(ModBlocks.DECORATIVE_BEDROCK)
+                .add(ModBlocks.DECORATIVE_REINFORCED_DEEPSLATE);
     }
 }

@@ -3,6 +3,8 @@
   "values": [
     "jacksdecorations:decorative_spawner",
     "jacksdecorations:decorative_bedrock",
-    "jacksdecorations:decorative_barrier"
+    "jacksdecorations:decorative_barrier",
+    "jacksdecorations:decorative_reinforced_deepslate",
+    "jacksdecorations:decorative_command_block"
   ]
 }

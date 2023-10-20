@@ -18,6 +18,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DECORATIVE_SPAWNER);
                         entries.add(ModBlocks.DECORATIVE_BEDROCK);
                         entries.add(ModBlocks.DECORATIVE_BARRIER);
+                        entries.add(ModBlocks.DECORATIVE_REINFORCED_DEEPSLATE);
+                        entries.add(ModBlocks.DECORATIVE_COMMAND_BLOCK);
                     }).build());
     public static void registerItemGroups() {
         JacksDecorations.LOGGER.info("Registering Mod Item Groups for " + JacksDecorations.MOD_ID);

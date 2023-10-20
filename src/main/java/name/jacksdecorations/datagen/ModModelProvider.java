@@ -26,6 +26,10 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerParentedItemModel(ModBlocks.DECORATIVE_SPAWNER, Identifier.tryParse("block/spawner"));
         blockStateModelGenerator.registerStateWithModelReference(ModBlocks.DECORATIVE_BARRIER, Blocks.BARRIER);
         blockStateModelGenerator.registerParentedItemModel(ModBlocks.DECORATIVE_BARRIER, Identifier.tryParse("item/barrier"));
+        blockStateModelGenerator.registerStateWithModelReference(ModBlocks.DECORATIVE_REINFORCED_DEEPSLATE, Blocks.REINFORCED_DEEPSLATE);
+        blockStateModelGenerator.registerParentedItemModel(ModBlocks.DECORATIVE_REINFORCED_DEEPSLATE, Identifier.tryParse("item/reinforced_deepslate"));
+        blockStateModelGenerator.registerStateWithModelReference(ModBlocks.DECORATIVE_COMMAND_BLOCK, Blocks.COMMAND_BLOCK);
+        blockStateModelGenerator.registerParentedItemModel(ModBlocks.DECORATIVE_COMMAND_BLOCK, Identifier.tryParse("item/command_block"));
 
     }
 

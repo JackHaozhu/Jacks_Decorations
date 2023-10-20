@@ -1,4 +1,6 @@
-// 1.20.1	2023-10-20T13:21:35.4057376	Jack'sDecorations/Block Loot Tables
+// 1.20.1	2023-10-20T21:23:45.4261941	Jack'sDecorations/Block Loot Tables
 e42b9968f915efa559334471b7a5da53f4d2cc9e data\jacksdecorations\loot_tables\blocks\decorative_spawner.json
 716d86c40ad4845fedefc0fdf18681fcc33c9bc3 data\jacksdecorations\loot_tables\blocks\decorative_barrier.json
+f3a209305f3ce36297b8a7ce4966784713a7e9d2 data\jacksdecorations\loot_tables\blocks\decorative_reinforced_deepslate.json
+7c0878b7cb05079c49d498a1a77caffb23893281 data\jacksdecorations\loot_tables\blocks\decorative_command_block.json
 51df478d25a9042d565193f065cff0c2beb0a606 data\jacksdecorations\loot_tables\blocks\decorative_bedrock.json

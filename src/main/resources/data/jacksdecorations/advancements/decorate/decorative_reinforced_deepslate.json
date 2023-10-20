@@ -1,0 +1,38 @@
+{
+  "parent": "jacksdecorations:decorate/root",
+  "criteria": {
+    "decorative_reinforced_deepslate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jacksdecorations:decorative_reinforced_deepslate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.decorate.decorative_reinforced_deepslate.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "jacksdecorations:decorative_reinforced_deepslate"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.decorate.decorative_reinforced_deepslate.title"
+    }
+  },
+  "requirements": [
+    [
+      "decorative_reinforced_deepslate"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -46,5 +46,31 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.TORCHFLOWER), conditionsFromItem(Items.TORCHFLOWER))
                 .criterion(hasItem(Items.GLASS), conditionsFromItem(Items.GLASS))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.DECORATIVE_BARRIER)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.DECORATIVE_REINFORCED_DEEPSLATE, 1)
+                .pattern("DDD")
+                .pattern("DDD")
+                .pattern("DDD")
+                .input('D', Items.DEEPSLATE)
+                .criterion(hasItem(Items.DEEPSLATE), conditionsFromItem(Items.DEEPSLATE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.DECORATIVE_REINFORCED_DEEPSLATE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.DECORATIVE_COMMAND_BLOCK, 1)
+                .pattern("EDE")
+                .pattern("BFC")
+                .pattern("EAE")
+                .input('A', Items.COPPER_BLOCK)
+                .input('B', Items.IRON_BLOCK)
+                .input('C', Items.GOLD_BLOCK)
+                .input('D', Items.DIAMOND)
+                .input('E', Items.OBSIDIAN)
+                .input('F', Items.NETHERITE_INGOT)
+                .criterion(hasItem(Items.COPPER_BLOCK), conditionsFromItem(Items.COPPER_BLOCK))
+                .criterion(hasItem(Items.IRON_BLOCK), conditionsFromItem(Items.IRON_BLOCK))
+                .criterion(hasItem(Items.GOLD_BLOCK), conditionsFromItem(Items.GOLD_BLOCK))
+                .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                .criterion(hasItem(Items.OBSIDIAN), conditionsFromItem(Items.OBSIDIAN))
+                .criterion(hasItem(Items.NETHERITE_INGOT), conditionsFromItem(Items.NETHERITE_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.DECORATIVE_COMMAND_BLOCK)));
     }
 }

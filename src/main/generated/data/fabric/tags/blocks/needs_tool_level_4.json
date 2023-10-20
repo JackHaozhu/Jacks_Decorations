@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "jacksdecorations:decorative_bedrock"
+    "jacksdecorations:decorative_bedrock",
+    "jacksdecorations:decorative_reinforced_deepslate"
   ]
 }

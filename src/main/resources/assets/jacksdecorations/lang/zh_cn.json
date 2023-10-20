@@ -2,6 +2,8 @@
   "block.jacksdecorations.decorative_spawner": "装饰刷怪笼",
   "block.jacksdecorations.decorative_bedrock": "装饰基岩",
   "block.jacksdecorations.decorative_barrier": "装饰屏障",
+  "block.jacksdecorations.decorative_reinforced_deepslate": "装饰强化深板岩",
+  "block.jacksdecorations.decorative_command_block": "装饰命令方块",
 
   "itemgroup.jacksdecorations": "豪猪的装饰方块",
 
@@ -11,6 +13,10 @@
   "advancements.decorate.decorative_spawner.title": "刷怪笼！",
   "advancements.decorate.decorative_bedrock.description": "嘿，基岩，你坚不可摧的日子结束了",
   "advancements.decorate.decorative_bedrock.title": "这是...基岩？",
-  "advancements.decorate.decorative_barrier.description": "摆下去过后就看不见了 XD",
-  "advancements.decorate.decorative_barrier.title": "隐形的基岩？"
+  "advancements.decorate.decorative_barrier.description": "放下去过后就看不见了 XD",
+  "advancements.decorate.decorative_barrier.title": "隐形的基岩？",
+  "advancements.decorate.decorative_reinforced_deepslate.description": "用这个在远古城市里搭一个崭新的传送门吧！",
+  "advancements.decorate.decorative_reinforced_deepslate.title": "古城的智慧！",
+  "advancements.decorate.decorative_command_block.description": "我能用吗？能吗？",
+  "advancements.decorate.decorative_command_block.title": "冒牌天神"
 }
